@@ -32,13 +32,13 @@ function App() {
             <input style={{color:'red'}} type="button" value="AC" onClick={reset} />
             <input style={{color:'orange'}} type="button" value="DE" onClick={back} />
             <input type="button" value="." onClick={e => setValue(value + e.target.value)} />
-            <input type="button" value="÷" onClick={e => setValue(value + e.target.value)} />
+            <input type="button" value="/" onClick={e => setValue(value + e.target.value)} />
           </div>
           <div>
             <input type="button" value="7" onClick={e => setValue(value + e.target.value)} />
             <input type="button" value="8" onClick={e => setValue(value + e.target.value)} />
             <input type="button" value="9" onClick={e => setValue(value + e.target.value)} />
-            <input type="button" value="x" onClick={e => setValue(value + e.target.value)} />
+            <input type="button" value="*" onClick={e => setValue(value + e.target.value)} />
           </div>
           <div>
             <input type="button" value="4" onClick={e => setValue(value + e.target.value)} />
